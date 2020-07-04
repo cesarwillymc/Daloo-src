@@ -1,0 +1,47 @@
+
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtB3AwMUeNoq4gUBGe6Ocj8kyh3bXa9ZbV7u1fVKQoyKFHdkqU",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Bienvenido Somos Pontifice!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "Ahora nuestro agente te respondera en breve.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Acerca de nosotros",
+      "url": "https://Facebook.com"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Contactanos al whatsapp",
+      "url": "https://web.whatsapp.com/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Contactanos por facebook",
+      "url": "https://aulavirtual2.unap.edu.pe/web/homework?s=713bebba-5c87-4241-2455-08d7ede5de27"
+    }
+  ]
+}
